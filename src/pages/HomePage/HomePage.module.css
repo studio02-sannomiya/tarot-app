@@ -1,0 +1,7 @@
+.panel, .infoBox { padding: 18px; border-radius: 24px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); }
+.panel { display: flex; flex-direction: column; gap: 14px; }
+.heading { margin: 0; font-size: 1.05rem; }
+.infoBox { display: flex; flex-direction: column; gap: 6px; }
+.infoLabel { margin: 0; color: var(--color-text-secondary); font-size: 0.9rem; }
+.infoValue { margin: 0; font-size: 1.4rem; font-weight: 700; }
+.infoDescription { margin: 0; color: var(--color-text-secondary); line-height: 1.7; }

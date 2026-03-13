@@ -1,0 +1,12 @@
+:root {
+  --color-bg: #0d0b14;
+  --color-bg-secondary: #15111f;
+  --color-surface: rgba(255, 255, 255, 0.06);
+  --color-text-primary: #f6f0e9;
+  --color-text-secondary: #c8c0d4;
+  --color-accent: #e8c982;
+  --color-accent-soft: #f4e6be;
+  --color-border: rgba(255, 255, 255, 0.12);
+  --shadow-soft: 0 18px 40px rgba(0, 0, 0, 0.26);
+  --font-base: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Yu Gothic', 'Meiryo', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}

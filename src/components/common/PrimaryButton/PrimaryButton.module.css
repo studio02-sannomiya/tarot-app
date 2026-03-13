@@ -1,0 +1,16 @@
+.button {
+  min-height: 52px;
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+.button:active { transform: translateY(1px) scale(0.99); }
+.button:disabled { opacity: 0.55; cursor: not-allowed; }
+.fullWidth { width: 100%; }
+.primary { color: #16131d; background: linear-gradient(135deg, var(--color-accent), var(--color-accent-soft)); box-shadow: 0 10px 30px rgba(232, 201, 130, 0.28); }
+.secondary { color: var(--color-text-primary); background: rgba(255, 255, 255, 0.08); border-color: rgba(255, 255, 255, 0.14); }
+.ghost { color: var(--color-text-secondary); background: transparent; border-color: rgba(255, 255, 255, 0.1); }

@@ -1,0 +1,2 @@
+.resultList { display: flex; flex-direction: column; gap: 18px; }
+.actions { display: flex; flex-direction: column; gap: 12px; }
